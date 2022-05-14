@@ -1,0 +1,50 @@
+body{
+    font-family: 'Inter',sans-serif;
+    height:100vh;
+    background-color: #282D35;
+}
+.nav{
+    display: flex;
+    background-color: #212223;
+}
+.logo{
+    width:30px;
+    height: 30px;
+    padding: 25px 0px 10px 10px;
+}
+.reactfacts{
+    color:#14D1EE;
+    padding: 10px;
+    font-weight: 700;
+}
+.reactprojects{
+    color:aliceblue;
+    margin-left: auto;
+    padding: 10px;
+    font-weight: 600;
+}
+main{
+    padding: 57px 27px;
+    color: aliceblue;
+    background-image: url(./reactjs-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position:right 75%;
+
+}
+.main--title{
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+.main--facts{
+margin-top: 46px;
+max-width: 400px;
+}
+.main--facts>li{
+    line-height: 19px;
+    padding:10px 10px;
+}
+.main--facts>li::marker{
+    font-size: 1.4rem;
+    color:#61DAFB;
+}
